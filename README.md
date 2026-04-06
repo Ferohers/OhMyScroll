@@ -1,6 +1,6 @@
-# OhMyScroll (Safari Web Extension MVP)
+# <img width="32" height="32" alt="icon-png" src="https://github.com/user-attachments/assets/ff21a5e3-2bb3-44ae-b72f-0f01496c0811" />
+OhMyScroll (Safari Web Extension MVP)
 
-<img width="128" height="128" alt="icon-png" src="https://github.com/user-attachments/assets/ff21a5e3-2bb3-44ae-b72f-0f01496c0811" />
 
 
 
