@@ -12,6 +12,8 @@ Icon
 .fseventsd
 
 # Xcode/Development
+build/
+*.app
 DerivedData/
 *.xcworkspace
 *.xcuserdata
