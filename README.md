@@ -1,11 +1,12 @@
 # OhMyScroll (Safari Web Extension MVP)
 
-`OhMyScroll` brings Firefox-like auto-scroll behavior to Safari pages within Safari's extension limits.
+## Prologue
+`OhMyScroll` brings Firefox-like middle button scroll behavior to Safari pages within Safari's extension limits. You will also get a bonus "autoscroll". I have a super old lcd screen and I might not picked-up the best colors for light/dark mode. Sadly, build scripts somehow fails miserably (do not look at me codex,gemini,qwen all failed to create something nice). Use Xcode and it will work as it should. 
 
 ## Installation / Kurulum
 
 Currently, you need to allow "unsigned extensions" in Safari to use this app. Don't worry, it's easy!
-*Şu an için bu eklentiyi kullanmak amacıyla Safari'de "imzasız eklentilere" izin vermeniz gerekiyor. Endişelenmeyin, çok kolay!*
+*Eklentiyi kullanmak amacıyla Safari'de "imzasız eklentilere" izin vermeniz gerekiyor. Ya da Xcode ile kendi imzanız ile çalıştırabilirsiniz.*
 
 ### English (Step-by-Step)
 
