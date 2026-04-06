@@ -2,7 +2,7 @@
 
 
 ## Prologue
-`OhMyScroll` brings Firefox-like middle button scroll behavior to Safari pages within Safari's extension limits. You will also get a bonus "autoscroll". I have a super old lcd screen and I might not picked-up the best colors for light/dark mode. Sadly, build scripts somehow fails miserably (do not look at me codex,gemini,qwen all failed to create something nice). Use Xcode and it will work as it should. 
+`OhMyScroll` brings Firefox-like middle button scroll behavior to Safari pages within Safari's extension limits. You will also get a bonus "autoscroll". I have a super old lcd screen and I might not picked-up the best colors for light/dark mode. Sadly, build scripts somehow fails miserably (do not look at me codex,gemini,qwen all failed too). Use Xcode and it will work as it should. 
 
 ## Installation / Kurulum
 
