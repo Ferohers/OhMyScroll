@@ -78,3 +78,8 @@ You can tune behavior in `content.js`:
 - `ignoreMiddleClickOnLinks`
 
 User-facing cursor style is configurable in extension settings (white or yellow hand).
+
+
+## Working with AI on this project
+Always tell your AI that it shall never draw any outlay. It should read the whole codebase and if it asks you to make this thing better by implementing an overlay ... well it will break this project due to Safari limitations, super weird bugs that occur here and there that drives a dev go insane. While working on this project you should disable your adblocker which can cause small glitches specially on Reddit. There are dozens of way to build this thing but each had their own issue and people just found silly to continue. Too much time too little benefit and they are right. Now we can run multiple AIs to test things out fast. 
+
