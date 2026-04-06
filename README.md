@@ -28,16 +28,38 @@
 - `content.css`: Active cursor visuals.
 - `background.js`: Toolbar toggle and state synchronization.
 
-## Run in Safari
+## Installation / Kurulum
 
-1. Convert this folder to a Safari extension app:
-   - `xcrun safari-web-extension-converter /Users/altan/Documents/mini-scroll`
-2. Open generated Xcode project.
-3. Build and run the macOS container app.
-4. In Safari:
-   - Open `Settings` > `Extensions`
-   - Enable `OhMyScroll`
-   - Allow on websites you want to test
+Since this extension is not currently distributed via the Mac App Store, you will need to build it locally using Xcode and enable unsigned extensions in Safari.
+*Bu eklenti şu anda Mac App Store üzerinden dağıtılmadığından, Xcode kullanarak derlemeniz ve Safari'de imzasız eklentilere izin vermeniz gerekmektedir.*
+
+### English (Step-by-Step)
+
+1. **Enable Safari Develop Menu:** Open Safari -> Settings (or Preferences) -> Advanced. Check "Show features for web developers" (or "Show Develop menu in menu bar").
+2. **Allow Unsigned Extensions:** In the top menu bar, click the "Develop" menu and select "Allow Unsigned Extensions". *(Note: You must do this every time you restart Safari).* 
+3. **Clone the Repository:** Open Terminal and run:
+   ```bash
+   git clone https://github.com/Ferohers/mini-scroll.git
+   cd mini-scroll
+   ```
+4. **Open in Xcode:** Open the `OhMyScroll/OhMyScroll.xcodeproj` file using Xcode.
+5. **Build and Run:** Click the "Run" (Play) button in the top left corner of Xcode. The OhMyScroll macOS app window will appear. You can close it afterwards.
+6. **Enable the Extension:** Return to Safari -> Settings -> Extensions. Check the box next to `OhMyScroll`.
+7. **Grant Permissions:** Select the extension and click "Always Allow on Every Website" so the auto-scroll can work properly on any page.
+
+### Türkçe (Adım Adım)
+
+1. **Safari Geliştirici Menüsünü Açın:** Safari -> Ayarlar (Settings) -> İleri Düzey (Advanced) menüsüne gidin. "Web geliştiricileri için özellikleri göster" (Show features for web developers) seçeneğini işaretleyin.
+2. **İmzasız Eklentilere İzin Verin:** Üst menüden "Geliştirici" (Develop) sekmesine tıklayın ve "İmzasız Eklentilere İzin Ver" (Allow Unsigned Extensions) seçeneğini işaretleyin. *(Not: Safari'yi baştan başlattığınızda bu ayarı tekrar açmanız gerekecektir).*
+3. **Depoyu Klonlayın:** Terminal'i açın ve şu komutları çalıştırın:
+   ```bash
+   git clone https://github.com/Ferohers/mini-scroll.git
+   cd mini-scroll
+   ```
+4. **Xcode'da Açın:** `OhMyScroll/OhMyScroll.xcodeproj` dosyasını çift tıklayarak Xcode ile açın.
+5. **Derleyin ve Çalıştırın:** Xcode'un sol üst köşesindeki "Run" (Oynat) düğmesine tıklayın. OhMyScroll macOS uygulamasının penceresi açılacaktır (işlem bitince uygulamayı kapatabilirsiniz).
+6. **Eklentiyi Etkinleştirin:** Tekrar Safari -> Ayarlar -> Eklentiler (Extensions) sekmesine gidin. `OhMyScroll` eklentisinin yanındaki kutucuğu işaretleyin.
+7. **İzinleri Verin:** Eklentiyi seçin ve otomatik kaydırmanın her sayfada sorunsuz çalışabilmesi için "Her Web Sitesinde Her Zaman İzin Ver" (Always Allow on Every Website) seçeneğine tıklayın.
 
 ## Notes on Safari limits
 
