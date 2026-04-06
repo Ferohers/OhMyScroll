@@ -1,0 +1,6 @@
+html.ohmyscroll-active,
+html.ohmyscroll-active *,
+body.ohmyscroll-active,
+body.ohmyscroll-active * {
+  cursor: var(--ohmyscroll-cursor, grab) !important;
+}

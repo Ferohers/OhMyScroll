@@ -1,0 +1,31 @@
+# Backups (Explicitly skipped)
+backups/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Trashes
+.Spotlight-V100
+.fseventsd
+
+# Xcode/Development
+DerivedData/
+*.xcworkspace
+*.xcuserdata
+*.xcshareddata
+*.xccheckout
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+xcuserdata/
+
+# Misc
+*.log
+*.tmp
+*.temp
